@@ -50,6 +50,7 @@ body {
     text-decoration: none;
     margin-bottom: 1em;
     
+    
 }
 
 
@@ -116,3 +117,65 @@ body {
     padding: 2em;
 }
 
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.dispositivos{
+    text-align: center;
+    font-size: 32px;
+}
+
+
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 1em;
+   
+}
+
+.list__link{
+    margin: 16px;
+    color: var(--branco-principal);
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.rodape__texto{
+    font-size: 14px;
+    text-align: center;
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+}
+
+
+.list__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+
+.list__link a:hover{
+    color: var(--botao-azul);
+
+}
+
+.list__link a:active {
+    color: purple;
+}
+
+.conteiner__botao:hover{
+    background-color: #ced2dd;
+    padding: 17px;
+}
