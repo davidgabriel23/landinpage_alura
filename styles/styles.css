@@ -1,9 +1,5 @@
 
 
-
-
-
-
 :root {
     --branco-principal: #ffffff;
     --cinza-secundario: #c0c0c0c0;
@@ -178,4 +174,39 @@ body {
 .conteiner__botao:hover{
     background-color: #ced2dd;
     padding: 17px;
+}
+
+
+
+@media screen and (max-width: 894px) {
+    .conteiner{
+        display: block;
+        background-image: none;
+    }
+
+    .conteiner__img {
+        width: 50vw;
+    }
+
+    .conteiner__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
 }
